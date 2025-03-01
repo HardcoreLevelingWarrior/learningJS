@@ -94,17 +94,20 @@ logName();
 //     console.log(prop + ': ' + amir.prop);
 // }
 
-function person(firstname, lastname) {
-    this.firstname = firstname;
-    this.lastname = lastname;
-}
-person.prototype.getFullName = function () {
-    return this.firstname + ' ' + this.lastname;
-}
-var amir = new person('amir', 'khatir');
-var mehrad = new person('mehrad', 'elmi');
-console.log(amir);
-console.log(mehrad);
-console.log(amir.getFullName());
+// function person(firstname, lastname) {
+//     this.firstname = firstname;
+//     this.lastname = lastname;
+// }
+// person.prototype.getFullName = function () {
+//     return this.firstname + ' ' + this.lastname;
+// }
+// var amir = new person('amir', 'khatir');
+// var mehrad = new person('mehrad', 'elmi');
+// console.log(amir);
+// console.log(mehrad);
+// console.log(amir.getFullName());
+
+
+var a = function () { };
 
 
