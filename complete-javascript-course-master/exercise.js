@@ -17,10 +17,10 @@ function getPerson() {
 console.log(getPerson());
 */
 
-//whitespaces 
+//whitespaces
 /*
 var
-    // creating a variable 
+    // creating a variable
     firstname ,
     lastName ,
     language ;
@@ -31,7 +31,7 @@ function greet(firstName) {
     console.log('hello ' + firstName);
 }
 greet();
-//function expression 
+//function expression
 var greetfunc = function (firstName) {
     console.log('hello ' + firstName)
 }
@@ -108,6 +108,5 @@ logName();
 // console.log(amir.getFullName());
 
 
-var a = function () { };
 
 
